@@ -1,0 +1,5 @@
+#ifndef CONFIG_H_IN
+#define CONFIG_H_IN
+
+#define APP_SOURCE_DIR "@QMLDIR@"
+#endif // CONFIG_H_IN
