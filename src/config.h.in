@@ -1,5 +1,6 @@
 #ifndef CONFIG_H_IN
 #define CONFIG_H_IN
 
-#define APP_SOURCE_DIR "@QMLDIR@"
+#define APP_SOURCE_DIR "@QMLDIR@/"
+#define APP_BUILD_DIR "@CMAKE_BINARY_DIR@/"
 #endif // CONFIG_H_IN
