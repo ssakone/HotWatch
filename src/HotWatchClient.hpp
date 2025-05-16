@@ -9,6 +9,7 @@
 class HotWatchClient : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
     Q_PROPERTY(QString serverUrl READ serverUrl WRITE setServerUrl NOTIFY serverUrlChanged)
     Q_PROPERTY(bool connected READ isConnected NOTIFY connectedChanged)
     Q_PROPERTY(QString watchDir READ watchDir NOTIFY watchDirChanged)
